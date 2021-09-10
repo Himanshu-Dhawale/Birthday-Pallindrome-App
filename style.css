@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+body {
+    background-image: url('https://media.giphy.com/media/SwIMZUJE3ZPpHAfTC4/giphy.gif?cid=ecf05e47csg6xfqdiqknxrhxyq4vql09pqa1uvrqu3f5w96j&rid=giphy.gif&ct=g');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    height: 100vh;
+    /* background-color: rgb(29, 35, 51); */
+    color: white;
+  }
+  
+  main {
+    border: 1px solid white;
+    text-align: center;
+    height: 100%;
+  }
+
+  h2{
+      color: #fca311;
+  }
+
+  input{
+      width: 40%;
+      margin-bottom: 0.6rem;
+      padding: 0.5rem;
+  }
+
+  button{
+      display: block;
+      margin: auto;
+      margin-top: 0.5rem;
+      padding:0.2rem;
+      width: 10%;
+      border-radius: 0.4rem;
+  }
+
+  button:hover{
+      background-color: #fca311;
+  }
+  
+  p {
+    padding: 2rem;
+    text-align: center;
+    font-family: Lato;
+    font-size: 1.5rem;
+    color: #fca311;
+    background-color: blue;
+  }
+  
