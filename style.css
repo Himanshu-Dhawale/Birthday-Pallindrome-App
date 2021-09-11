@@ -2,7 +2,7 @@
 
 
 body {
-    background-image: url('https://media.giphy.com/media/SwIMZUJE3ZPpHAfTC4/giphy.gif?cid=ecf05e47csg6xfqdiqknxrhxyq4vql09pqa1uvrqu3f5w96j&rid=giphy.gif&ct=g');
+    /* background-image: url('https://media.giphy.com/media/SwIMZUJE3ZPpHAfTC4/giphy.gif?cid=ecf05e47csg6xfqdiqknxrhxyq4vql09pqa1uvrqu3f5w96j&rid=giphy.gif&ct=g'); */
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,34 +22,42 @@ body {
   }
 
   h2{
-      color: #fca311;
+    font-size: xx-large;
+    margin: 2rem;
+    color: black;
   }
 
   input{
       width: 40%;
       margin-bottom: 0.6rem;
-      padding: 0.5rem;
+      padding: 0.6rem 1rem;
+      border: 2px solid  #023e8a;
+      border-radius: 0.5rem;
+      width: 100%;
+      max-width: 258px
   }
 
   button{
       display: block;
       margin: auto;
       margin-top: 0.5rem;
-      padding:0.2rem;
+      padding:0.7rem 1rem;
       width: 10%;
       border-radius: 0.4rem;
+      background-color: blue;
+      color: white;
   }
 
-  button:hover{
+  /* button:hover{
       background-color: #fca311;
-  }
+  } */
   
   p {
     padding: 2rem;
     text-align: center;
     font-family: Lato;
     font-size: 1.5rem;
-    color: #fca311;
+    color: white;
     background-color: blue;
   }
   
